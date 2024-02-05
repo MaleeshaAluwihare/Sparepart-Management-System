@@ -1,0 +1,96 @@
+@charset "UTF-8";
+.home{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/*image styles*/
+.homeimage{         
+    height:550px;
+    width:1000px;
+}
+
+/*text inside the image*/
+.text-overlay{
+    position:absolute;
+    top:40%;
+    left:5%;
+}
+h4{
+    color:whitesmoke;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 0px;
+}
+h1{
+    color:whitesmoke;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.shopbtn{
+    background-color:rgb(117, 117, 248);
+    color: white;
+    border-radius: 20px;
+    padding: 8px 30px; 
+    margin: 30px 0px;
+    margin-top:10px;
+}
+.shopbtn:hover{
+    color:black;
+    background: white;
+    opacity:1.5;
+    padding: 10px 40px;
+}

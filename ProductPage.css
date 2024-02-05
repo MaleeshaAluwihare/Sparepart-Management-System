@@ -1,0 +1,114 @@
+@charset "UTF-8";
+.page{
+	padding-top:80px;
+	padding-bottom:100px;
+	padding-left:200px;
+	padding-right:200px;
+}
+.title{
+	font-size:60px;
+	text-align:center;
+    }
+form.bar input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: white;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+form.bar button {
+  float:left;
+  width: 20%;
+  padding: 10px;
+  background: black;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-radius:20px;
+  cursor: pointer;
+}
+form.bar button:hover{
+	color:black;
+	background-color:white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+        .product {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+            width: 300px;
+			position: relative;
+        }
+        .product:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        /* Your existing CSS code */
+
+.product-description {
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.available-quantity {
+    font-weight: bold;
+}
+
+.buynow {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+	width: 100%; 
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+}
+
+.buynow a {
+    text-decoration: none;
+    color: white;
+}
